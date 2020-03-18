@@ -1,0 +1,45 @@
+@media screen and (max-width:784px){  
+    .main_catalog{padding: 0 3px;}
+    .main_catalog .row{border-bottom: 2px solid #C4C4C4;border-top: 2px solid #C4C4C4;margin-right: 0;}
+    .main_catalog .row .container{width: 100%;padding-right: 0;}
+    .main_catalog .row .container .item{margin: 0 auto;max-width: 380px;width: 100%;}
+    .main_catalog .title_catalog{padding-bottom: 10px;}
+    .request{margin-top: 31px;}
+}
+@media screen and (max-width:600px){
+    .request .request_block .item{width: 100%;padding-bottom: 20px;}
+    .request .checkbox_block{flex-wrap: wrap;}
+    .request .checkbox_block .block{width: 100%;}
+    .request .checkbox_block .block .request_block{padding: 27px 0 30px;}
+}
+@media screen and (max-width:530px){
+    .humbruger_menu{padding: 101px 48px 44px;}
+    .humbruger_menu .menu{margin-top: 30px;}    
+    .humbruger_menu .nice-select{padding: 13px 30px; width: 100%;max-width: 100%;margin-bottom: 14px;margin-right: 0;height: 40px;}
+    .humbruger_menu #country_s ~ .nice-select{max-width: 100%;}
+    .humbruger_menu #travel_s ~ .nice-select{margin-top: 0;}
+    .humbruger_menu #country_s ~ .nice-select.open .list{max-width: 100%;width: 100%;padding: 0 30px 30px;}
+    .humbruger_menu .up_side button{display: block;}
+    .humbruger_menu .datepicker{width: 100%;max-width: 100%;}
+    .humbruger_menu #datepicker{max-width: 100%;width: 100%; padding: 13px 30px;margin-bottom: 14px;}
+    .humbruger_menu label::after{margin-top: -10px;right: 32px;}
+    .ui-widget.ui-widget-content{border-radius: 0 0 29.5px 29.5px;top: 194px;margin-left: 0;}
+    .humbruger_menu .datepicker::after{margin-top: -10px;right: 32px;}
+    
+}
+@media screen and (max-width:415px){    
+    .main_catalog .row .container .item .img_block{max-width: 340px;width: 100%;height: 195px;}
+    .main_catalog .row .container .item .route br{display: none;}
+    .request{padding: 0 5px;}
+    .request .title_request{font-size: 30px;text-align: left;}
+    .request .request_block .item label{font-size: 8px;}
+    .request .send button{margin: 0 auto;}
+    .request .checkbox_block .block .request_block{padding: 27px 0 50px;}     
+}
+@media screen and (max-width:390px){
+    .humbruger_menu #datepicker{border-bottom-right-radius: 0;}
+}
+@media screen and (max-width:340px){
+    .main_catalog .row .container .item .img_block{max-width: 300px;height: 172px;}
+    .humbruger_menu{padding: 101px 20px 44px;}
+}

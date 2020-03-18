@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="css/global.css"> 
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/jquery.scrollbar.css">  
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/BuroRaDer.DateRangePicker.css">
+    <link rel="stylesheet" href="css/jquery.datetimepicker.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">   
+    
+    <title>Test-travel</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sub"></div>
+        <div class="humbruger_menu">
+            <div class="up_side">
+                <select name="country_s" id="country_s">
+                    <option>Страна</option>
+                    <option value="1">Южная Америка
+                        <option value="1.1" class="sub_select">Аргентина</option>
+                        <option value="1.1">Бразилия</option>
+                        <option value="1.1">Перу</option>
+                        <option value="1.1">Уругвай</option>
+                        <option value="1.1">Чили</option>
+                        <option value="1.1">Эквадор</option>
+                        <option value="1.2"><a href="#">Все туры на континенте</a></option>
+                    </option>
+                    <option value="2">Северная Америка</option>
+                    <option value="3">Америка</option>
+                    <option value="4">Арктика и Антарктика</option>
+                    <option value="5">Африка</option>
+                    <option value="6">Австралия и Океания</option>
+                    <option value="7">Европа</option>
+                    <option value="8">Азия</option>
+                </select>
+                
+                      
+                <div class="datepicker">
+                    <input type="text" placeholder="Дата" name="date_s" id="datepicker" value="">      
+                <label for="datepicker"></label>  
+                    
+                </div>
+                
+                <select name="travel_s" id="travel_s">
+                    <option>Тип путешествия</option>
+                    <option value="20">Активный</option>
+                    <option value="21">Майские</option>
+                    <option value="22">На авто</option>
+                    <option value="23">На корабле</option>
+                    <option value="24">Новый год</option>
+                    <option value="25">Поход</option>
+                    <option value="26">Серфинг</option>
+                    <option value="27">Эксклюзив</option>
+                    <option value="28">Экскурсионный</option>
+                    <option value="29">Активный</option>
+                    <option value="30">Экспедиция</option>
+                </select>
+                <button>НАЙТИ</button>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">ПУТЕШЕСТВИЯ</a></li>
+                        <li><a href="#">О НАС</a></li>
+                        <li><a href="#">ОТЗЫВЫ</a></li>
+                        <li><a href="#">БЛОГ</a></li>
+                    </ul>
+                </div>
+            </div> 
+            <div class="low_side">
+                <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+                <button>ПОДБЕРИТЕ МНЕ ТУР</button>
+            </div>         
+        </div>
+        <header class="header">
+            <nav>
+                <button class="nav-toggle">
+                  <span class="bar-top"></span>
+                  <span class="bar-mid"></span>
+                  <span class="bar-bot"></span>
+                </button>
+              </nav>
+              
+              <div class="clear"></div>
+        </header>
+        <main class="main">
+            <div class="main_catalog">
+                <div class="inner">
+                    <div class="title_catalog">ЗИМБАБВЕ</div>
+                    <div class="row">
+                        <div class="container">
+                            <div class="item">
+                                <div class="img_block">
+                                    <div class="price"><a href="#">от 118 112 <span class="ruble">m</span></a></div>
+                                    <a href="#" style="background-image: url(./img/main_catalog/catalog_item_img1.jpg);" ></a>
+                                </div>
+                                <a href="#"  class="country">Италия</a>
+                                <div class="title_item"><a href="#">Под небом Тосканы</a></div>
+                                <div class="route">Сансеполькро — (Перуджа) — Ассизи — Губбио — (Сиена) — Ла Верна  <br> — Ангиари — Монтерки — Ареццо — Кортона — (Пиенца) - (Монтепульчано)</div>
+                                <div class="date">8 дней / 7 ночей Русский язык <br> 27.04.19 - 04.05.19 и еще 15 дат</div>
+                                <div class="stock">Авиаперелет включен!</div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="item">
+                                <div class="img_block">
+                                    <div class="price"><a href="#">140 715 <span class="ruble">m</span></a></div>
+                                    <a href="#" style="background-image: url(./img/main_catalog/catalog_item_img2.jpg);" ></a>
+                                </div>
+                                <a href="#"  class="country">ИСЛАНДИЯ</a>
+                                <div class="title_item"><a href="#">Майские каникулы в Исландии</a></div>
+                                <div class="route">Рейкьявик — Тингвеллир — Гюдльфосс — Скафтафедль — Сельяландсфосс  <br> — Скоугафосс — Йёкюльсаурлоун — Голубая Лагуна — Снайфельсйёкутль <br> — Arnarstapi — Рейкьявик</div>
+                                <div class="date">8 дней / 7 ночей Русский язык <br> 27.04.19 - 04.05.19</div>
+                                
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="item">
+                                <div class="img_block">
+                                    <div class="price"><a href="#">37 302 <span class="ruble">m</span></a></div>
+                                    <a href="#" style="background-image: url(./img/main_catalog/catalog_item_img3.jpg);" ></a>
+                                </div>
+                                <a href="#"  class="country">ТУРЦИЯ</a>
+                                <div class="title_item"><a href="#">Открытие Турции</a></div>
+                                <div class="route">Стамбул — Анкара — Каппадокия — Конья — Памуккале — Эфес — Кушадасы <br> — Пергам — Ассос — Троя — Стамбул</div>
+                                <div class="date">8 дней / 7 ночей Русский язык <br> 28.04.19 - 05.05.19и еще 3 даты</div>
+                                
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="item">
+                                <div class="img_block">
+                                    <div class="price"><a href="#">145 000 <span class="ruble">m</span></a></div>
+                                    <a href="#" style="background-image: url(./img/main_catalog/catalog_item_img4.jpg);" ></a>
+                                </div>
+                                <a href="#"  class="country">НОРВЕГИЯ, ШПИЦБЕРГЕН</a>
+                                <div class="title_item"><a href="#">От Свальбарда до Груманта</a></div>                                
+                                <div class="date">8 дней / 7 ночей Русский язык <br> 27.04.19 - 04.05.19 и еще 15 дат</div>
+                                <div class="stock">Гарантированный тур!</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end main_catalog-->
+            <div class="request">
+                <div class="inner">
+                   <form action="" method="POST" id="request" >
+                    <div class="title_request">Заявка на подбор путешествия</div>                    
+                    <div class="textform_block">
+                            <span class="title_block">НЕМНОГО О ВАС</span>
+                        <div class="request_block">                        
+                            <div class="item">
+                                <label for="name">Имя <span>*</span> </label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="item">
+                             <label for="number">Телефон</label>
+                             <input type="text" id="number" name="number" placeholder="+7___ ___ __ __">
+                         </div>
+                        </div>
+                        <span class="title_block">О ПУТЕШЕСТВИИ</span>
+                        <div class="request_block">                        
+                            <div class="item">
+                              <label for="place">КУДА И КОГДА ХОТИТЕ ПОЕХАТЬ? <span>*</span> </label>
+                            <input type="text" id="place" name="place" placeholder="Континент, страна или город" required>
+                         </div>
+                            <div class="item">
+                              <label for="date">КОГДА?</label>
+                               <input type="text" id="date" name="date" placeholder="Даты или временной интервал">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="checkbox_block d-flex">
+                        <div class="block w50">
+                            <span class="title_block">УДОБНЫЙ СПОСОБ СВЯЗИ</span>
+                            <div class="request_block">                        
+                                <div class="item">
+                                    <input type="checkbox" id="viber" name="viber" checked>
+                                    <label for="viber">VIBER</label>                                    
+                                </div>  
+                                <div class="item">                                    
+                                    <input type="checkbox" id="whatsapp" name="whatsapp">
+                                    <label for="whatsapp">WHATSAPP</label>
+                                </div> 
+                                <div class="item">                                    
+                                    <input type="checkbox" id="mail" name="mail">
+                                    <label for="mail">ПОЧТА</label>
+                                </div> 
+                                 <div class="item">                                    
+                                    <input type="checkbox" id="number_ch" name="number_ch">
+                                    <label for="number_ch">ТЕЛЕФОН</label>
+                                </div>                       
+                            </div>
+                        </div>
+                        <div class="block w50">
+                            <span class="title_block">ОТКУДА УЗНАЛИ О НАС</span>
+                            <div class="request_block">                        
+                                <div class="item">
+                                    <input type="checkbox" id="internet" name="internet">
+                                    <label for="internet">ИНТЕРНЕТ</label>                                    
+                                </div>  
+                                <div class="item">                                    
+                                    <input type="checkbox" id="friends" name="friends">
+                                    <label for="friends">РЕКОМЕНДОВАЛИ ДРУЗЬЯ</label>
+                                </div> 
+                                <div class="item">                                    
+                                    <input type="checkbox" id="networks" name="networks">
+                                    <label for="networks">СОЦ. СЕТИ</label>
+                                </div> 
+                                 <div class="item">                                    
+                                    <input type="checkbox" id="comeback" name="comeback">
+                                    <label for="comeback">УЖЕ ЕЗДИЛ</label>
+                                </div>                       
+                            </div>
+                        </div>                                               
+                    </div>
+                         <div class="checkbox_agreement">
+                            <input type="checkbox"id="mail_news" name="mail_news">
+                            <label for="mail_news">Получать свежие предложения по электронной почте</label> 
+                            <p>Каждую неделю мы делаем для вас обзор лучших экспедиций, статей и лайфхаков для путешественников. Если вдруг вам не понравится, вы сможете отписаться в любой момент.</p>  
+                        </div>
+                        <div class="checkbox_agreement">
+                            <input type="checkbox" id="personal" name="personal" required>
+                            <label for="personal">С обработкой своих персональных данных согласен. <span>*</span></label> 
+                            <p>Отправляя заявку я подтверждаю согласие с условиями <a href="#">Пользовательского соглашения</a></p>
+                        </div>
+                        <p class="required"><span>*</span> Поля, которые надо обязательно заполнить</p>
+                        <div class="send"><button>отправить</button></div>
+                   </form>
+                    
+                </div>
+            </div>
+            <!--end request-->
+        </main>
+        <!--end main-->
+    </div>
+    <!--end wrapper-->
+    <footer class="footer">
+      
+    </footer>
+    <!--end footer-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script> 
+    <script src="js/jquery.nicescroll.min.js"></script>  
+    <script src="js/jquery.nice-select.min.js"></script>    
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/BuroRaDer.DateRangePicker.js"></script>
+    <script src="js/jquery.datetimepicker.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
