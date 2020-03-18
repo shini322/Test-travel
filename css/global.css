@@ -115,7 +115,7 @@ header, nav, section, article, aside, footer, main{display:block;}
 .round{border-radius:50%;}
 
 .scroll_no{overflow-y: hidden;}
-
+.rotate180{transform: rotate(180deg);}
 
 
 /* Slider */

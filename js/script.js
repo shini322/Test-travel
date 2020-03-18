@@ -20,14 +20,12 @@ $(".nav-toggle").click(function() {
 });
 
 $( 'html' ).click(function() {  
-  if($('#ui-datepicker-div').css('display') == "none"){
-    $('.humbruger_menu #datepicker').css('border-radius','29.5px');
-  } else{
-    $('.humbruger_menu #datepicker').css('border-radius','29.5px 29.5px 0 0');
-    $('.humbruger_menu label::after').css('transform','rotate(180deg)');
-    $('.humbruger_menu label').after().css('transform','rotate(180deg)');
+  if($('#ui-datepicker-div').css('display') == "none"){ 
+    $('.humbruger_menu .datepicker').after().css('transform','rotate(0deg)');   
+  } else{    
+    $('.humbruger_menu .datepicker').next().css('transform','rotate(180deg)');
   }
-});
+}); 
 
 
 

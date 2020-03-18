@@ -55,7 +55,7 @@ nav{display: flex; justify-content: flex-end;}
 .humbruger_menu{justify-content: flex-end; padding: 101px 120px 55px; box-sizing: border-box; max-width: 530px;width: 100%;height: 100vh; position: absolute;right: 0; top: 0; background-color: #FFD241;z-index: 3;display: none;}
 .humbruger_menu .up_side{display: flex;flex-wrap: wrap;}
 .humbruger_menu .up_side button{display: none; transition: all .3s; margin: 0 auto;padding: 17px 74px;text-transform: uppercase;border-radius: 29.5px;border: 1px solid #000000;background-color: transparent;font-size: 12px;line-height: 14px;max-width: 280px;width: 100%;}
-.humbruger_menu .up_side button:hover {background-color: #141414;color: #fff;}
+.humbruger_menu .up_side button:hover {border-color: transparent; background-color: rgba(20, 20, 20, .7);color: #FFD241}
 .humbruger_menu .nice-select{margin-right: 10px; line-height: 0; color: #000;border-radius: 29.5px;background-color: #fff;border: none;width: 100%;height: 49px; padding: 17px 30px;text-overflow: ellipsis;overflow: hidden;}
 .humbruger_menu .nice-select::after{border-color: #000;right: 32px;}
 .humbruger_menu label{position: relative;}
@@ -79,21 +79,21 @@ nav{display: flex; justify-content: flex-end;}
 .humbruger_menu .nice-select .option:hover{background: rgba(196, 196, 196, 0.3);}
 
 .humbruger_menu .datepicker{position: relative;max-width: 120px;}
-.humbruger_menu .datepicker::after{border-bottom: 2px solid #999;border-right: 2px solid #999;content: '';display: block;height: 5px; margin-top: -4px;pointer-events: none; position: absolute;top: 50%;-webkit-transform-origin: 66% 66%;-ms-transform-origin: 66% 66%;transform-origin: 66% 66%;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);-webkit-transition: all 0.15s ease-in-out;transition: all 0.15s ease-in-out;width: 5px; border-color: #000;right: 17px;}}
+.humbruger_menu .datepicker::after{border-bottom: 2px solid #999;border-right: 2px solid #999;content: '';display: block;height: 5px; margin-top: -4px;pointer-events: none; position: absolute;top: 50%;-webkit-transform-origin: 66% 66%;-ms-transform-origin: 66% 66%;transform-origin: 66% 66%;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);-webkit-transition: all 0.15s ease-in-out;transition: all 0.15s ease-in-out;width: 5px; border-color: #000;right: 17px;}
 
 .ui-widget{font-family: 'Museo Sans Cyrl';}
 .ui-datepicker{padding: 0;}
 .ui-datepicker-inline {position: relative; border-radius: 29.5px 0 0 0;max-width: 283px;width: 100%;max-height: 363px; border: none;background-color: #fff;transition: all 0.3s;}
 .ui-widget-header{background-color: transparent; border: none;border-radius: 29.5px;height: 15px;}
-.ui-state-default, .ui-widget-content .ui-state-default{font-weight: 700; box-sizing: border-box; background-color: #fff;border: none;text-align: center;border-radius: 50%;width: 28px;height: 28px;display: flex;justify-content: center;align-items: center;}
+.ui-state-default, .ui-widget-content .ui-state-default{font-weight: 500; box-sizing: border-box; background-color: #fff;border: none;text-align: center;border-radius: 50%;width: 28px;height: 28px;display: flex;justify-content: center;align-items: center;}
 .ui-state-default.ui-state-active{background-color: #FFD241;color: #000;}
 .ui-datepicker .ui-datepicker-title{margin: 0;left: 38%;top: 77%;}
 .ui-datepicker .ui-datepicker-prev{width: 4px;height: 7px;background-image: url(../images/button_arrow.svg);background-size: cover;background-repeat: no-repeat;left: 25px;top: 14px;transform: rotate(180deg);}
 .ui-datepicker .ui-datepicker-next{width: 4px;height: 7px;background-image: url(../images/button_arrow.svg);background-size: cover;background-repeat: no-repeat;right: 25px;top: 14px;}
-.ui-widget.ui-widget-content{ position: absolute; padding: 10px 25px 18px; border: none;box-sizing: border-box; border-radius: 29.5px;width: 280px;margin-top: -4px;margin-left: -20px;}
+.ui-widget.ui-widget-content{ position: absolute; padding: 10px 25px 18px; border: none;box-sizing: border-box; border-radius: 29.5px;width: 280px;margin-top: -18px;margin-left: -20px;padding-top: 14px;}
 .ui-widget-content td.range a{background-color: red;}
 .ui-widget{font-family: 'Museo Sans Cyrl';}
-.ui-widget.ui-widget-content::after{font-weight: 700; content: "Выберите дату не позднее которой хотите вернуться";font-size: 12px;line-height: 14px;text-align: center;font-family: 'Museo Sans Cyrl';margin-top: 31px;}
+.ui-widget.ui-widget-content::after{font-weight: 700; content: "Выберите дату не позднее которой хотите вернуться";font-size: 12px;line-height: 14px;text-align: center;font-family: 'Museo Sans Cyrl';margin-top: 21px;}
 .humbruger_menu .date_s_info{text-align: center;font-size: 12px;line-height: 14px;color: #000;background-color: #fff;border-radius:0 0 29.5px 29.5px;max-width: 283px;width: 100%;padding-top: 21px;padding-bottom: 18px;}
 
 .humbruger_menu .menu{text-align: center;margin: 68px auto 0;}
@@ -105,7 +105,7 @@ nav{display: flex; justify-content: flex-end;}
 .humbruger_menu .low_side a{letter-spacing: 0.1em;font-weight: bold;font-size: 24px;line-height: 29px;color: #141414;}
 .humbruger_menu .low_side a:hover{border-bottom: 2px solid #141414;}
 .humbruger_menu .low_side button{transition: all .3s; margin: 0 auto;padding: 17px 74px;text-transform: uppercase;border-radius: 29.5px;border: 1px solid #000000;background-color: transparent;margin-top: 24px;font-size: 12px;line-height: 14px;max-width: 280px;width: 100%;}
-.humbruger_menu .low_side button:hover {background-color: #141414;color: #fff;}
+.humbruger_menu .low_side button:hover {border-color: transparent; background-color: rgba(20, 20, 20, .7);color: #FFD241}
 
 
 #ascrail2000{height: 500px !important;margin-left: -5px;}
