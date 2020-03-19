@@ -53,33 +53,34 @@ nav{display: flex; justify-content: flex-end;}
 
 /*humbruger_menu*/
 .humbruger_menu{justify-content: flex-end; padding: 101px 120px 55px; box-sizing: border-box; max-width: 530px;width: 100%;height: 100vh; position: absolute;right: 0; top: 0; background-color: #FFD241;z-index: 3;display: none;}
-.humbruger_menu .up_side{display: flex;flex-wrap: wrap;}
+.humbruger_menu .up_side{display: flex;flex-wrap: wrap;justify-content: center;}
 .humbruger_menu .up_side button{display: none; transition: all .3s; margin: 0 auto;padding: 17px 74px;text-transform: uppercase;border-radius: 29.5px;border: 1px solid #000000;background-color: transparent;font-size: 12px;line-height: 14px;max-width: 280px;width: 100%;}
 .humbruger_menu .up_side button:hover {border-color: transparent; background-color: rgba(20, 20, 20, .7);color: #FFD241}
-.humbruger_menu .nice-select{margin-right: 10px; line-height: 0; color: #000;border-radius: 29.5px;background-color: #fff;border: none;width: 100%;height: 49px; padding: 17px 30px;text-overflow: ellipsis;overflow: hidden;}
-.humbruger_menu .nice-select::after{border-color: #000;right: 32px;}
+.humbruger_menu .nice-select .list{width: 100%;}
+.humbruger_menu .nice-select{margin-right: 10px; line-height: 0; color: #000;border-radius: 29.5px;background-color: #fff;border: none;height: 49px; padding: 17px 10px;text-overflow: ellipsis;overflow: hidden;}
+.humbruger_menu .nice-select::after{border-color: #000;right: 20px;background: url(../images/button_arrow.svg) no-repeat;background-size: cover;background-size: cover;transform: rotate(90deg);width: 3px;height: 7px;border: none;}
 .humbruger_menu label{position: relative;}
 .humbruger_menu .nice-select .current{font-weight: 400;font-size: 12px;line-height: 14px;}
 .humbruger_menu .nice-select .option.selected.focus{display: none;}
-.humbruger_menu #country_s ~ .nice-select{max-width: 150px;}
-.humbruger_menu #datepicker{position: relative; display: block; transition: all .1s ease-in-out; max-width: 120px;border-radius: 29.5px;color: #000;font-weight: 400;font-size: 12px;line-height: 14px;padding: 17px 28px;box-sizing: border-box;}
+.humbruger_menu #country_s + .nice-select{min-width: 150px;}
+.humbruger_menu #datepicker{position: relative; display: block; transition: all .1s ease-in-out; max-width: 120px;border-radius: 29.5px;color: #000;font-weight: 400;font-size: 12px;line-height: 14px;padding: 17px 10px;box-sizing: border-box;}
 .humbruger_menu #datepicker::placeholder{color: #000;font-weight: 400;font-size: 12px;line-height: 14px;}
-.humbruger_menu #travel_s ~ .nice-select{max-width: 100%;width: 100%;margin-top: 18px;}
+.humbruger_menu #travel_s + .nice-select{max-width: 100%;width: 100%;margin-top: 18px;margin-right: 0;}
 .humbruger_menu .nice-select ul li:first-child{display: none;}
 .humbruger_menu .nice-select ul li[data-value="1.1"]{padding-left: 13px;line-height: 17px;font-weight: 500;}
 .humbruger_menu .nice-select ul li[data-value="1.2"]{color: #FFD241;text-transform: uppercase;font-size: 10px;line-height: 30px;padding-left: 13px;}
 
 .humbruger_menu .nice-select.open{border-radius: 29.5px 29.5px 0 0;overflow: visible;}
 .humbruger_menu .nice-select.open .list{border: none;border-radius: 0 0 29.5px 29.5px;box-shadow: none;margin-top: -1px; padding: 0 11px 30px;}
-.humbruger_menu #country_s ~ .nice-select.open .list{max-width: 150px;max-height: 540px;overflow: scroll;}
-.humbruger_menu #travel_s ~ .nice-select.open .list{max-width: 100%; width: 100%;max-height: 540px;overflow: scroll;}
-.humbruger_menu #travel_s ~ .nice-select.open .list .option{font-weight: 500;}
+.humbruger_menu #country_s ~ .nice-select.open .list{max-height: 540px;overflow: scroll;}
+.humbruger_menu #travel_s + .nice-select.open .list{max-width: 100%; width: 100%;max-height: 540px;overflow: scroll;}
+.humbruger_menu #travel_s + .nice-select.open .list .option{font-weight: 500;padding-left: 35px;}
 
 .humbruger_menu .nice-select .option{ display: flex;  align-items: center; border-radius: 15px; padding: 0; font-size: 13px;line-height: 17px;font-weight: 700;min-height: 35px;}
 .humbruger_menu .nice-select .option:hover{background: rgba(196, 196, 196, 0.3);}
 
 .humbruger_menu .datepicker{position: relative;max-width: 120px;}
-.humbruger_menu .datepicker::after{border-bottom: 2px solid #999;border-right: 2px solid #999;content: '';display: block;height: 5px; margin-top: -4px;pointer-events: none; position: absolute;top: 50%;-webkit-transform-origin: 66% 66%;-ms-transform-origin: 66% 66%;transform-origin: 66% 66%;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);-webkit-transition: all 0.15s ease-in-out;transition: all 0.15s ease-in-out;width: 5px; border-color: #000;right: 17px;}
+.humbruger_menu .datepicker::after{content: '';background: url(../images/button_arrow.svg) no-repeat;background-size: cover; display: block;height: 7px; margin-top: -4px;pointer-events: none; position: absolute;top: 50%;-webkit-transform-origin: 66% 66%;-ms-transform-origin: 66% 66%;transform-origin: 66% 66%;-webkit-transform: rotate(90deg);-ms-transform: rotate(90deg);transform: rotate(90deg);-webkit-transition: all 0.15s ease-in-out;transition: all 0.15s ease-in-out;width: 3px; border-color: #000;right: 20px;}
 
 .ui-widget{font-family: 'Museo Sans Cyrl';}
 .ui-datepicker{padding: 0;}

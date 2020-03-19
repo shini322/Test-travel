@@ -24,7 +24,7 @@
     .humbruger_menu #datepicker{max-width: 100%;width: 100%; padding: 13px 30px;margin-bottom: 14px;}
     .humbruger_menu label::after{margin-top: -10px;right: 32px;}
     .ui-widget.ui-widget-content{border-radius: 0 0 29.5px 29.5px;top: 194px;margin-left: 0;margin-top: -14px;}
-    .humbruger_menu .datepicker::after{margin-top: -10px;right: 32px;}
+    .humbruger_menu .datepicker::after{margin-top: -10px;}
     
 }
 @media screen and (max-width:415px){    
@@ -36,7 +36,7 @@
     .request .send button{margin: 0 auto;}
     .request .checkbox_block .block .request_block{padding: 27px 0 50px;}     
 }
-@media screen and (max-width:340px){
+@media screen and (max-width:370px){
     .main_catalog .row .container .item .img_block{max-width: 300px;height: 172px;}
     .humbruger_menu{padding: 101px 20px 44px;}
 }
